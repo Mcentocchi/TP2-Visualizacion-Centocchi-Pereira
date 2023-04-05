@@ -33,7 +33,7 @@ html {
 body {
       width: 100%;
       /*background-image: url("https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/07/AGN_1160_Lede.jpg");*/
-      background-image: url("/Imagenes/fondo.jpg");
+      background-image: url("./Imagenes/fondo.jpg");
       background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
