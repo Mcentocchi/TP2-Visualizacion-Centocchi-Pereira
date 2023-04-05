@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+           
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Grafico 3 </title>
+      <link rel="stylesheet" href="master.css">
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <nav class="navBar">
+                  <a href="index.html">
+                        <img class='logo' src="utdt.png" alt="logo">
+                  </a>
+                  <a href="index.html">
+                        <img src="menu.png" alt="menu-btn">
+                  </a>
+            </nav>
+
+            <header>
+            
+                  <h1 class="anim"> Viajes por astronauta</h1>
+                  <h3> Los sueños se cumplen, y para unos pocos, se repiten</h3>
+                  <p class="anim"> 
+                        ¡Bienvenidos a una mirada completa de quienes cumplieron su sueño de ir al espacio! 
+                        <br>
+                        <br>
+                        Como podemos ver no todos tuvieron el privilegio de viejar mas que una vez, de echo pare ser un lujo casi exclusivo de los comandantes. Asi se ve en el grafico, donde casi todas las extrellas por encima de 1 son azules (comandantes)
+                        <br>
+                        <br>
+                        Este gráfico nos permitirá visualizar que ocupacion son mas propensas a realizar dos viajes al espacio, y dimensionar lo poco comun que es que ocurra.        
+                  </p>
+            </header>
+
+            <div class="work">
+                  <div style="margin-left: 25%;" id="chart"></div>
+            </div>
+      
+            <footer>
+                        
+                  <p>Matias Centocchi & Federico Pereira | 2023 </p>
+            </footer>
+      </div>
+      <script type="text/javascript">
+            window.sr = ScrollReveal();
+            sr.reveal('.anim');
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.contentWindow.js"></script>
+      <script src="script_grafico_3.js"></script>
+
+</body>
+</html>

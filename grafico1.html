@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+           
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Grafico 1 | Horas de misión anuales </title>
+      <link rel="stylesheet" href="master.css">
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <nav class="navBar">
+                  <a href="index.html">
+                        <img class='logo' src="utdt.png" alt="logo">
+                  </a>
+                  <a href="index.html">
+                        <img src="menu.png" alt="menu-btn">
+                  </a>
+            </nav>
+
+            <header>
+            
+                  <h1 class="anim"> Horas de misión anuales</h1>
+                  <h3> USA vs Rusia vs Resto del mundo</h3>
+                  <p class="anim"> 
+                        ¡Bienvenidos a una mirada comparativa de las horas acumuladas de misiones espaciales entre los principales países protagonistas de la exploración espacial! 
+                        <br>
+                        <br>
+                        En este gráfico visual, se muestra una comparativa de las horas acumuladas de misiones espaciales entre Estados Unidos, Rusia y el resto del mundo entre los años 2010 y 2019. Los Estados Unidos y Rusia son dos países que históricamente han liderado la exploración espacial, mientras que el resto del mundo ha ido ganando terreno en las últimas décadas.
+                        <br>
+                        <br>
+                        Este gráfico nos permitirá visualizar cómo ha evolucionado la exploración espacial en términos de horas de misiones acumuladas, y cómo ha variado la contribución de cada país a lo largo de los años.        
+                  </p>
+            </header>
+
+            <div class="work">
+                  <div style="margin-left: 25%;" id="chart"></div>
+            </div>
+      
+            <footer>
+                        
+                  <p>Matias Centocchi & Federico Pereira | 2023 </p>
+            </footer>
+      </div>
+      <script type="text/javascript">
+            window.sr = ScrollReveal();
+            sr.reveal('.anim');
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.contentWindow.js"></script>
+      <script src="script_grafico_1.js"></script>
+
+</body>
+</html>
