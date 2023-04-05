@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+           
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Grafico 4 </title>
+      <link rel="stylesheet" href="../master.css">
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <nav class="navBar">
+                  <a href="../index.html">
+                        <img class='logo' src="/Imagenes/utdt.png" alt="logo">
+                  </a>
+                  <a href="../index.html">
+                        <img src="/Imagenes/menu.png" alt="menu-btn">
+                  </a>
+            </nav>
+
+            <header>
+            
+                  <h1 class="anim"> ¡Necesitamos mas mujeres astronautas!</h1>
+                  <h3> El Ratio Hombre:Mujer, parece mantenerse en el tiempo</h3>
+                  <p class="anim"> 
+                        En este gráfico, se muestra la frecuencia de hombres y mujeres que han sido seleccionados para misiones espaciales. A través de este gráfico, podemos apreciar cómo ha evolucionado la presencia femenina en el campo de la exploración espacial.
+                        <br>
+                        <br>
+                        Aquí podemos ver las proporciones de astronautas hombres y mujeres para los distintos años, como podemos ver, !normalmente hay  mas de 4 hombres por cada mujer en el espacio!, usualmente el 80% de los astronautas son hombres.
+                        <br>
+                        <br>
+                        Queda muy claro gracias a esta barra de proporciones, que sin importar si la cantidad total de astronautas por año disminuye, el ratio hombre:mujer se mantiene y que aunque la exploración espacial ha sido tradicionalmente dominada por hombres, las mujeres también han tenido una presencia significativa en el campo desde inicios de década.
+                  </p>
+            </header>
+
+            <div class="work">
+                  <div style="margin-left: 25%;" id="chart"></div>
+            </div>
+      
+            <footer>
+                        
+                  <p>Matias Centocchi & Federico Pereira | 2023 </p>
+            </footer>
+      </div>
+      <script type="text/javascript">
+            window.sr = ScrollReveal();
+            sr.reveal('.anim');
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.contentWindow.js"></script>
+      <script src="script_grafico_4.js"></script>
+
+</body>
+</html>

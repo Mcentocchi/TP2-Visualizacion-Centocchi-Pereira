@@ -33,7 +33,11 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
       legend: true,
       label:"Frecuencia",
       
-    }
+    },
+    width: 800,
+    height: 400,
+    marginLeft: 60,
+    marginBottom: 60
 
   })
   // Agregamos chart al div#chart de index.html
